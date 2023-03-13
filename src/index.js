@@ -13,7 +13,7 @@ app.use(cors());
 app.use('/auth', userRouter);
 app.use('/recipes', recipesRouter);
 
-mongoose.connect("mongodb+srv://joao:this@cluster0.zpfz0.mongodb.net/recipes?retryWrites=true&w=majority");
+mongoose.connect("");
 
 
 app.listen(3001, () => console.log('Server started!'));
